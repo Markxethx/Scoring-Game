@@ -41,29 +41,11 @@ function num33(){
 }
 
 function reset(){
+    let resetnum = "0"
+    display1.textContent = resetnum + 0;
+    display2.textContent = resetnum + 0;
     number1 = 0;
     number2 = 0;
-    display1.textContent = number1;
-    display2.textContent = number2;
-
 }
 
 
-/*
-let countMinus = document.getElementById("count")
-let countAdd = document.getElementById("count")
-let countSave = document.getElementById("count")
-count = 0
-
-function increment() {
-    count += 1
-    countAdd.textContent = count
-}
-
-function decrement() {
-    count -= 1
-    countMinus.textContent = count
-}
-function save() {
-    count = 0
-    countSave.textContent = count */
