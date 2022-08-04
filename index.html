@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoring Counter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="main">
+    <div class="counter">  
+        <div class="player1">
+            <h1 id="player-name1">Player 1</h1>
+            <div id="score1" class="score1">00</div>
+            <div class="points">
+                <h2 id="point" onclick="num1()">+1</h2>
+                <h2 id="point" onclick="num2()">+2</h2>
+                <h2 id="point" onclick="num3()">+3</h2>
+            </div>
+        </div>
+        <div class="player2">
+            <h1 id="player-name2">Player 2</h1>
+            <div id="score2" class="score2">00</div>
+            <div class="points">
+                <h2 id="point" onclick="num11()">+1</h2>
+                <h2 id="point" onclick="num22()">+2</h2>
+                <h2 id="point" onclick="num33()">+3</h2>
+            </div>
+        </div>
+        <div class="btn"><button onclick="reset()">Reset</button></div>
+    </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
